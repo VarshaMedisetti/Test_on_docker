@@ -1,3 +1,3 @@
 FROM python
-copy . /app
-cmd python /app/test.py
+COPY . /app
+CMD ["python","/app/test.py"]
